@@ -1,0 +1,41 @@
+:root {
+    --cor-primaria: #009CDC;
+    --cor-secundaria: #56BFED;
+}
+
+.background {
+    background-image: url(../assets/background-recados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bi-person {
+    color: var(--cor-primaria);
+}
+
+h1 {
+    color: var(--cor-primaria);
+}
+
+.form-control:focus {
+    border-color: var(--cor-primaria);
+    box-shadow: 0 0 0 .10rem var(--cor-primaria);;
+}
+
+.btn-primary {
+    background-color: var(--cor-primaria);
+    border: var(--cor-primaria);
+}
+
+.btn-primary:hover {
+    background-color: var(--cor-secundaria);
+    border: var(--cor-secundaria);
+}
+span {
+    color: var(--cor-primaria);
+    cursor: pointer;
+}
+span:hover {
+    color: var(--cor-secundaria);
+}
